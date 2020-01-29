@@ -12,6 +12,7 @@ https://grpc.io/docs/tutorials/basic/java/
 
 git clone ...  
 cd grpc-spring-demo  
-mvn -DskipTests clean compile // will generate java classes from .proto    
+\# will generate java classes from .proto  
+mvn -DskipTests clean compile      
 
 
