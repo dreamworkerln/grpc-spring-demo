@@ -6,8 +6,8 @@ google grpc-java helloworld example, wrapped with Spring Boot
   
 ### installation   
 
-git clone ...
-cd grpc-spring-demo
-mvn -DskipTests clean package
+git clone ...  
+cd grpc-spring-demo  
+mvn -DskipTests clean package  
 
 
