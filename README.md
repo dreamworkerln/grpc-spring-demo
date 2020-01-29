@@ -16,7 +16,6 @@ cd grpc-spring-demo
 mvn -DskipTests clean compile   
   
 #### ToDo:  
-  
 make symbolic link from  
 server/src/main/proto/helloworld.proto  
 to  
