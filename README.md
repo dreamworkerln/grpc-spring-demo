@@ -4,7 +4,7 @@ google grpc-java helloworld example, wrapped with Spring Boot
   
   
   
-installation   
+### installation   
 
 git clone ...
 cd grpc-spring-demo
