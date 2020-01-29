@@ -80,9 +80,7 @@ public class HelloWorldServer {
     private void blockUntilShutdown() throws InterruptedException {
         if (server != null) {
 
-            
-            Thread.currentThread().join();
-            //server.awaitTermination();
+            server.awaitTermination();
         }
     }
 
@@ -109,7 +107,6 @@ public class HelloWorldServer {
     @Async
     public void startup() throws IOException {
         this.start();
-        //this.blockUntilShutdown();
     }
 
 
