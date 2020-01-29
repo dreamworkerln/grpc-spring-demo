@@ -8,6 +8,6 @@ google grpc-java helloworld example, wrapped with Spring Boot
 
 git clone ...  
 cd grpc-spring-demo  
-mvn -DskipTests clean package  
+mvn -DskipTests clean compile // will generate java classes from .proto    
 
 
